@@ -10,6 +10,15 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     </head>
     <body>
-        <h1>${message}</h1>
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">Hi! School</a>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <h1>${message}</h1>
+        </div>
     </body>
 </html>
